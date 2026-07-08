@@ -43,7 +43,7 @@ goto menu
 :shutdown_remote
 set /p target="Enter the Computer Name or IP address: "
 set /p time="Enter delay in seconds (or 0 for immediate): "
-shutdown /s /m \\%target% /t %time% /c "Remote shutdown initiated by Admin"
+shutdown /s /m \\%target% /t %time% /c "You have been shutdown by ADMIN"
 echo Command sent to %target%.
 timeout /t 3 >nul
 goto menu
